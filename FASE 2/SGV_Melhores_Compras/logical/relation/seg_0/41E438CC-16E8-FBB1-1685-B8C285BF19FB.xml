@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_PRODUTO_SGV_SAC" directorySegmentName="seg_0" id="41E438CC-16E8-FBB1-1685-B8C285BF19FB">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:13 UTC</createdTime>
+<generatorID>C3B760A4-7F59-DB16-9484-93D74A01A02D</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>772BFA6F-D5BC-BCC4-76E6-73E3858A634F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>23F659B9-6F18-5710-549F-6F9A2205DC9F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

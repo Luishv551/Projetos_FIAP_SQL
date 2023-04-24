@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_MC_CLIENTE_FISICA" directorySegmentName="seg_0" id="5DC58B60-0A7F-AEAA-CBE4-43529CA29EDC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:13 UTC</createdTime>
+<generatorID>147717CD-18B0-2F3C-6FEF-A935C9708543</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useSurrogateKey>true</useSurrogateKey>
+<arc>5FB74154-D18E-4342-175D-B97ECFE01B33</arc>
+<dominantRole>66EE9C89-8F0C-EE68-ADF3-B0857C78CBA1</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>66EE9C89-8F0C-EE68-ADF3-B0857C78CBA1</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>9AA0E908-3BCA-0BC4-E1B7-BC60FD8E33E9</targetEntity>
+<transferable>true</transferable>
+</Relation>

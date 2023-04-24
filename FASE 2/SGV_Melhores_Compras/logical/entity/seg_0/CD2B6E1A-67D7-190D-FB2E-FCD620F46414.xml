@@ -1,0 +1,231 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CD2B6E1A-67D7-190D-FB2E-FCD620F46414" name="MC FUNCIONARIO">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<generatorID>97801851-F919-CA27-8414-D96ADF5D9334</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="CD FUNCIONARIO" id="88BFE34C-1777-64DC-D121-24081098B03C">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo do funcionário e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>3DA8680F-5172-3456-F7D5-262850D25EFC</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD DEPTO" id="190B35D4-76AC-7846-0359-93B3B89D3EA1">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo do departamento onde o funcionario trabalha  e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo do departamento onde o funcionario trabalha  e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD GERENTE" id="9C7E54C6-258B-9DC7-493D-15FA726D836A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o codigo do gestor do funcionario trabalha  e seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o codigo do gestor do funcionario trabalha  e seu conteúdo é opcional.]]></commentInRDBMS>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM FUNCIONARIO" id="33886399-632C-E30D-BA9C-FF7D3FB57C64">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o nome do funcionário e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o nome do funcionário e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>3AFC4375-B6A6-E6C8-C419-0A8A0CB38690</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>160</dataTypeSize>
+<ownDataTypeParameters>160,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT NASCIMENTO" id="797CEE17-04DA-2875-DDCF-AF7324F6E8D3">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber a data de nascimento  do funcionário e seu conteúdo é obrigatório.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber a data de nascimento  do funcionário e seu conteúdo é obrigatório.]]></commentInRDBMS>
+<generatorID>05A5EDBC-1765-3017-F205-BA9D53169D61</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FL SEXO BIOLOGICO" id="E57ED66D-A797-CAEC-D53B-65327A84260B">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o sexo biológico do funcionário e seu conteúdo é obrigatório.Os valores permitidos aqui seriam: (F)eminino; (M)asculino ou (Hermafrodita)]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o sexo biológico do funcionário e seu conteúdo é obrigatório.Os valores permitidos aqui seriam: (F)eminino; (M)asculino ou (Hermafrodita)]]></commentInRDBMS>
+<generatorID>F3FB1EB8-5ED6-F368-3E0D-EA11682B57A6</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS GENERO" id="54AD56CD-F016-D96D-FA48-29EBDE6D5AFA">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o genero atribuido ao funcionário e seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o genero atribuido ao funcionário e seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>E2596825-FB1F-4246-D0E2-9EC3E4491C39</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS CARGO" id="F67DBAE5-5579-7D0C-E354-0AB8E643763A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o cargo do funcionário e seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o cargo do funcionário e seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>4F98228B-70A3-A25F-B28E-673275DC3034</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="VL SALARIO" id="295A1098-ED30-F904-D5C1-01723878D63A">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o valor do salário do funcionário e seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o valor do salário do funcionário e seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>861252AE-C440-9B28-1794-7FBBFD17A5C4</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,10,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS EMAIL" id="2086BF18-B721-BD0E-B1A1-4C087C48C8A0">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Esta coluna irá receber o email do funcionário e seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Esta coluna irá receber o email do funcionário e seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>7933B289-6AC7-742E-EDB9-E592FD15D6D7</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST FUNC" id="05125ED5-0C7B-4E0D-8511-A401716C26DC">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Essa coluna irá armazenar o stauts do funcionário da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).]]></comment>
+<commentInRDBMS><![CDATA[Essa coluna irá armazenar o stauts do funcionário da Melhorees Compras. Os valores permitidos aqui são: A(tivo) e I(nativo).]]></commentInRDBMS>
+<generatorID>C0763F5C-ACD9-48AA-D3F1-BB625976188B</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT CADASTRAMENTO" id="BE2A9A77-79FD-D103-F15C-AFE215E66699">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Data de cadastramento do Funcionario]]></comment>
+<commentInRDBMS><![CDATA[Data de cadastramento do Funcionario]]></commentInRDBMS>
+<generatorID>F9D9B213-FABB-256A-CC0F-DB8DE8B7F0F6</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT DESLIGAMENTO" id="896BDCC7-483F-BF68-827C-5A0229D676CB">
+<createdBy>Gustavo Padlipskas</createdBy>
+<createdTime>2022-12-14 14:31:12 UTC</createdTime>
+<comment><![CDATA[Data de desligamento  do Funcionario. Seu conteúdo é opcional.]]></comment>
+<commentInRDBMS><![CDATA[Data de desligamento  do Funcionario. Seu conteúdo é opcional.]]></commentInRDBMS>
+<generatorID>8C66A9F2-9A0F-8D2B-90EA-B0C4C798C5BD</generatorID>
+<ownerDesignName>SGV_Melhores_Compras</ownerDesignName>
+<engineerTo>
+<item key="D3EA570C-CF09-A95D-0250-B56D1592D2C8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+</Entity>
