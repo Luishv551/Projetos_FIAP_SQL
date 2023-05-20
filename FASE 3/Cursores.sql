@@ -28,6 +28,89 @@ SELECT empno, ename, job, mgr, hiredate, sal, comm, deptno
 END;
 /
 
+--Realizando a mesma tarefa
+SET SERVEROUTPUT ON
+
+DECLARE
+  emprec emp%rowtype;
+
+BEGIN
+SELECT *
+  INTO emprec
+  FROM emp
+ WHERE empno = 7839;
+ dbms_output.put_line('Codigo   = ' || emprec.empno);
+ dbms_output.put_line('Nome     = ' || emprec.ename);
+ dbms_output.put_line('Cargo    = ' || emprec.job);
+ dbms_output.put_line('Gerente  = ' || emprec.mgr);
+ dbms_output.put_line('Data     = ' || emprec.hiredate);
+ dbms_output.put_line('Sala     = ' || emprec.sal);
+ dbms_output.put_line('Comissao = ' || emprec.comm);
+ dbms_output.put_line('Depart.  = ' || emprec.deptno);  
+END;
+/
+
+BEGIN
+   DELETE FROM emp
+   WHERE deptno = 10;
+   dbms_output.put_line('Linhas apagadas = ' || SQL%ROWCOUNT);
+   ROLLBACK;
+END;
+/
+
+--Utilização de Cursor Explicito
+DECLARE   
+  CURSOR cursor_emp IS 
+         SELECT deptno, SUM(sal)             
+         FROM emp        
+      GROUP BY deptno;
+BEGIN
+   OPEN cursor_emp;
+END;
+/
+
+--Exemplo de cursor explicito com FETCH
+
+DECLARE
+  emprec emp%rowtype; --Aqui ele vai pegar todos os nomes das colunas e tipos na tabela emp  
+  CURSOR cursor_emp IS --declarando o cursor
+         SELECT deptno, SUM(sal)             
+          FROM emp        
+        GROUP BY deptno;
+BEGIN
+   OPEN cursor_emp; --chamando o cursor
+   LOOP --Iniciando um loop simples, caso contrario so vai apresentar uma linha
+      FETCH cursor_emp INTO emprec.deptno, emprec.sal; --usando o FETCH para inserir os dados que o cursor retorna, dentron das variaveis.
+      EXIT WHEN cursor_emp%notfound;
+      dbms_output.put_line
+        ('Departamento: ' || emprec.deptno);
+      dbms_output.put_line
+        ('Salario     : ' || emprec.sal);
+   END LOOP;
+END;
+/
+
+--Mesmo exemplo mas agora com fechamento de cursor.
+DECLARE
+  emprec emp%rowtype;   
+  CURSOR cursor_emp IS 
+         SELECT deptno, SUM(sal)             
+          FROM emp        
+        GROUP BY deptno;
+BEGIN
+   OPEN cursor_emp;
+   LOOP
+      FETCH cursor_emp INTO emprec.deptno, emprec.sal;
+      EXIT WHEN cursor_emp%notfound;
+      dbms_output.put_line
+        ('Departamento: ' || emprec.deptno);
+      dbms_output.put_line
+        ('Salario     : ' || emprec.sal);
+   END LOOP;
+   CLOSE cursor_emp;
+END;
+/
+
 
 
 
