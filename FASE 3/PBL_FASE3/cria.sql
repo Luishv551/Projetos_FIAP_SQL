@@ -1402,6 +1402,8 @@ WHERE NR_CLIENTE = 7  AND ROWNUM = 1;
 UPDATE MC_END_FUNC  SET ST_END = 'I', DT_TERMINO = SYSDATE-1
 WHERE CD_FUNCIONARIO = 11  AND ROWNUM = 1;
 
+select pf0110.fun_mc_gera_aliquota_media_icms_estado('SC') Aliquota_ICMS_Estado FROM dual
+
 --
 -- Confirma as transações pendentes
 commit;
