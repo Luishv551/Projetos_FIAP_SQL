@@ -1,0 +1,11 @@
+CREATE OR REPLACE PROCEDURE GREETING_PROCEDURE(p_name IN VARCHAR2)
+AS
+BEGIN
+    DBMS_OUTPUT.PUT_LINE('Hello, ' || p_name || '! Welcome to the world of Oracle SQL.');
+END;
+/
+
+BEGIN
+    GREETING_PROCEDURE('John');
+END;
+/
