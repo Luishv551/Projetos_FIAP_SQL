@@ -1,0 +1,133 @@
+ID;Nome;Idade;Estado;Escolaridade;Tamanho_Propriedade (hectares);Producao_Anual (toneladas);Faturamento_Anual (BRL);Margem_Lucros (%);Cultura;Score_Credito;Maquinario;Funcionarios;Caixa;Tipo_credito 
+1;João Silva;35;São Paulo;Ensino Médio;100;500;2000000;25%;Milho;750;35;13;542786;Rural
+2;Maria Santos;42;Minas Gerais;Ensino Superior;200;800;4000000;30%;Café;800;12;9;235641;Custo de Producao
+3;José Oliveira;28;Bahia;Ensino Médio;150;300;1800000;20%;Soja;600;48;7;156874;Logistica
+4;Ana Pereira;55;Rio Grande do Sul;Ensino Fundamental;80;200;1000000;15%;Uva;500;7;18;785324;Infraestrutura
+5;Ricardo Almeida;48;Paraná;Ensino Superior;300;1200;3000000;22%;Trigo;700;22;3;319652;Qualificacao da Mao de Obra
+6;Paula Costa;30;Goiás;Ensino Médio;120;400;1600000;28%;Algodão;650;41;16;978412;Ambiental
+7;Márcio Ferreira;40;Santa Catarina;Ensino Médio;250;600;2400000;27%;Milho;700;9;8;654123;Processo Juridico
+8;Cristina Lima;37;São Paulo;Ensino Superior;180;700;2800000;26%;Soja;720;28;4;412356;Questoes Fundiarias
+9;Fernando Sousa;45;Mato Grosso;Ensino Superior;400;1500;6000000;35%;Algodão;800;46;17;985743;Rural
+10;Amanda Rodrigues;32;Paraná;Ensino Médio;150;500;2000000;22%;Café;680;2;5;754986;Custo de Producao
+11;Pedro Santos;50;Rio Grande do Sul;Ensino Fundamental;90;250;1000000;18%;Uva;520;39;11;428971;Logistica
+12;Carla Oliveira;28;Bahia;Ensino Médio;200;300;1200000;23%;Soja;600;19;6;865214;Infraestrutura
+13;Marcos Ferreira;38;Mato Grosso;Ensino Superior;350;1000;4000000;30%;Milho;720;3;2;139846;Qualificacao da Mao de Obra
+14;Lúcia Silva;47;Minas Gerais;Ensino Fundamental;70;180;720000;16%;Café;540;17;15;617235;Ambiental
+15;Roberto Almeida;55;São Paulo;Ensino Superior;300;1200;4800000;28%;Trigo;750;44;0;324687;Processo Juridico
+16;Sandra Costa;33;Goiás;Ensino Médio;120;400;4800000;20%;Algodão;540;16;12;768932;Questoes Fundiarias
+17;João Silva;47;Amazonas;Escolaridade;150;452;2564589;27%;Milho;789;33;10;518463;Qualificacao da Mao de Obra
+18;Maria Santos;32;Amapá;Ensino Médio;320;89;987543;24%;Café;632;50;19;943721;Ambiental
+19;José Oliveira;56;Pará;Ensino Superior;180;742;7543210;32%;Soja;875;14;1;279564;Processo Juridico
+20;Ana Pereira;40;Roraima;Ensino Médio;95;315;1536872;22%;Uva;723;27;14;654987;Questoes Fundiarias
+21;Ricardo Almeida;63;Tocantins;Ensino Fundamental;280;601;6054321;21%;Trigo;569;5;5;418732;Rural
+22;Paula Costa;29;Rondônia;Ensino Superior;160;287;287156;30%;Algodão;812;45;7;821495;Custo de Producao
+23;Márcio Ferreira;50;Acre;Ensino Médio;70;748;7489532;25%;Milho;687;11;18;398754;Rural
+24;Cristina Lima;36;Maranhão;Ensino Fundamental;350;143;1432678;23%;Soja;548;36;3;743216;Custo de Producao
+25;Fernando Sousa;68;Piauí;Ensino Superior;130;532;5329856;28%;Algodão;932;8;16;563214;Logistica
+26;Amanda Rodrigues;42;Ceará;Ensino Médio;390;647;6478520;31%;Café;753;31;8;259348;Infraestrutura
+27;Pedro Santos;55;Rio Grande do Norte;Ensino Superior;140;225;2254697;23%;Uva;628;1;4;914872;Qualificacao da Mao de Obra
+28;Carla Oliveira;28;Paraíba;Ensino Médio;200;479;4793654;29%;Soja;789;49;17;632145;Ambiental
+29;Marcos Ferreira;60;Pernambuco;Ensino Médio;300;366;3669874;26%;Milho;574;25;5;785496;Processo Juridico
+30;Lúcia Silva;37;Alagoas;Ensino Superior;170;803;8034219;24%;Café;916;4;11;178346;Questoes Fundiarias
+31;Roberto Almeida;52;Sergipe;Ensino Médio;220;125;1256987;30%;Trigo;541;20;6;894732;Rural
+32;Sandra Costa;27;Bahia;Ensino Médio;190;698;6987530;29%;Algodão;822;42;2;321478;Custo de Producao
+33;André Souza;66;Minas Gerais;Ensino Médio;360;374;3741256;25%;Milho;697;30;15;875412;Logistica
+34;Fernanda Lima;44;Espírito Santo;Ensino Superior;380;824;8246973;21%;Café;576;13;0;129654;Infraestrutura
+35;Bruno Rocha;59;Rio de Janeiro;Ensino Superior;310;69;698742;34%;Soja;856;6;12;587412;Qualificacao da Mao de Obra
+36;Beatriz Oliveira;34;São Paulo;Ensino Superior;110;578;5783215;20%;Uva;713;37;10;456321;Ambiental
+37;Marcelo Cardoso;67;Mato Grosso do Sul;Ensino Médio;250;236;2368754;27%;Trigo;628;10;19;984217;Processo Juridico
+38;Patrícia Fernandes;46;Mato Grosso;Ensino Médio;120;410;4109658;22%;Algodão;782;29;1;357896;Questoes Fundiarias
+39;Lucas Pereira;31;Goiás;Ensino Médio;370;729;7293147;30%;Milho;916;47;14;623514;Qualificacao da Mao de Obra
+40;Juliana Alves;70;Distrito Federal;Ensino Superior;400;154;1548765;31%;Soja;682;21;13;741589;Ambiental
+41;Rafael Miranda;48;Paraná;Ensino Superior;85;290;2901478;26%;Algodão;541;40;9;154783;Processo Juridico
+42;Luana Rodrigues;38;Santa Catarina;Ensino Fundamental;330;630;6302594;29%;Café;754;18;7;968723;Questoes Fundiarias
+43;Guilherme Santos;58;Mato Grosso do Sul;Ensino Superior;75;867;8674520;23%;Uva;623;38;18;852416;Rural
+44;Flávia Carvalho;25;Mato Grosso do Sul;Ensino Fundamental;230;341;3417862;34%;Soja;895;15;3;215487;Custo de Producao
+45;Thiago Oliveira;61;Mato Grosso do Sul;Ensino Médio;210;712;7123546;24%;Milho;734;34;16;436295;Rural
+46;Renata Silva;49;Mato Grosso do Sul;Ensino Médio;240;498;4985623;34%;Café;568;24;8;987514;Rural
+47;Marcelo Castro;45;Mato Grosso do Sul;Ensino Médio;340;245;2456987;23%;Trigo;837;43;4;369874;Rural
+48;Isabela Gonçalves;35;Mato Grosso do Sul;Ensino Superior;200;573;5731298;27%;Algodão;691;23;17;124785;Rural
+49;Carlos Vieira;54;Mato Grosso do Sul;Ensino Médio;180;819;8197634;31%;Milho;547;26;5;365871;Rural
+50;Vanessa Ferreira;26;Mato Grosso do Sul;Ensino Médio;170;398;3981257;30%;Café;825;13;0;129654;Rural
+51;Eduardo Lima;57;Mato Grosso do Sul;Ensino Médio;80;58;587412;24%;Soja;762;6;12;587412;Rural
+52;Camila Costa;33;Mato Grosso do Sul;Ensino Fundamental;370;462;4623871;22%;Uva;598;37;10;456321;Rural
+53;Vinícius Rodrigues;65;Mato Grosso do Sul;Ensino Superior;190;173;1736528;21%;Trigo;874;10;19;984217;Rural
+54;Fernanda Oliveira;30;Mato Grosso do Sul;Ensino Médio;150;675;6758934;31%;Algodão;632;29;1;357896;Rural
+55;Daniel Martins;64;Mato Grosso do Sul;Ensino Médio;350;791;7912345;27%;Milho;789;47;14;623514;Rural
+56;Renata Pereira;43;Mato Grosso do Sul;Ensino Superior;140;207;2075498;29%;Soja;675;21;13;741589;Rural
+57;Gabriel Ribeiro;53;Mato Grosso do Sul;Ensino Médio;160;863;8631234;23%;Algodão;523;40;9;154783;Rural
+58;Bárbara Carvalho;41;Mato Grosso do Sul;Ensino Médio;300;314;3146985;32%;Café;869;18;7;968723;Rural
+59;Bruno Barbosa;62;Mato Grosso do Sul;Ensino Superior;110;520;5203746;32%;Uva;728;38;18;852416;Rural
+60;Letícia Dias;51;Mato Grosso do Sul;Ensino Médio;380;94;946781;21%;Soja;591;15;3;215487;Rural
+61;Tiago Pereira;39;Mato Grosso do Sul;Ensino Superior;130;684;6843271;29%;Milho;946;34;16;436295;Rural
+62;Patricia Santos;24;Mato Grosso do Sul;Ensino Médio;120;399;3998725;30%;Café;715;24;8;987514;Rural
+63;Andréa Silva;69;Mato Grosso do Sul;Ensino Médio;220;132;1326987;29%;Trigo;548;43;4;369874;Rural
+64;Rafaela Mendes;47;Mato Grosso do Sul;Ensino Médio;360;767;7671234;28%;Algodão;823;23;17;124785;Rural
+65;Marcos Santos;32;Mato Grosso;Ensino Superior;390;697;697854;29%;Milho;697;26;5;365871;Rural
+66;Carolina Almeida;56;Goiás;Ensino Superior;95;261;2614598;24%;Café;587;26;5;365871;Rural
+67;Lucas Silva;52;São Paulo;Ensino Médio;1266;2559;1068743;25%;Milho;801;8;49;440843;Rural
+68;Amanda Oliveira;51;Minas Gerais;Ensino Superior;514;662;1376443;30%;Café;846;13;36;253528;Custo de Producao
+69;Rafael Souza;51;Bahia;Ensino Médio;407;925;658608;20%;Soja;756;6;37;172312;Logistica
+70;Julia Pereira;57;Rio Grande do Sul;Ensino Fundamental;144;2254;1941368;15%;Uva;924;4;45;993297;Infraestrutura
+71;Gabriel Santos;23;São Paulo;Ensino Superior;1335;1550;1271399;22%;Trigo;763;18;39;263385;Qualificacao da Mao de Obra
+72;Isabela Lima;31;São Paulo;Ensino Médio;175;2298;1399954;28%;Algodão;572;8;45;671806;Ambiental
+73;Mateus Ferreira;46;São Paulo;Ensino Médio;727;2707;294496;27%;Milho;664;22;37;886336;Processo Juridico
+74;Sophia Costa;64;São Paulo;Ensino Superior;215;615;1819191;26%;Soja;906;28;43;754866;Questoes Fundiarias
+75;Pedro Rodrigues;21;São Paulo;Ensino Superior;1182;2358;1269355;35%;Algodão;746;18;35;397599;Rural
+76;Larissa Oliveira;63;São Paulo;Ensino Médio;287;1282;1673620;22%;Café;770;6;36;371243;Custo de Producao
+77;Gustavo Pereira;30;São Paulo;Ensino Fundamental;394;1480;1983452;18%;Uva;892;8;8;498105;Logistica
+78;Mariana Silva;47;São Paulo;Ensino Médio;538;1465;663768;23%;Soja;918;20;31;826016;Infraestrutura
+79;Daniel Almeida;28;São Paulo;Ensino Superior;559;1635;1493595;30%;Milho;933;29;35;974132;Qualificacao da Mao de Obra
+80;Camila Fernandes;58;São Paulo;Ensino Fundamental;241;2233;402848;16%;Café;733;27;22;745116;Ambiental
+81;Bruno Gomes;29;São Paulo;Ensino Superior;333;1679;1186414;28%;Trigo;637;12;26;494201;Processo Juridico
+82;Luana Ribeiro;46;Goiás;Ensino Médio;1025;2488;679542;20%;Algodão;926;25;13;983182;Questoes Fundiarias
+83;Leonardo Carvalho;64;Goiás;Escolaridade;1050;2089;1340298;27%;Milho;878;7;30;617655;Qualificacao da Mao de Obra
+84;Carolina Santos;32;Goiás;Ensino Médio;815;326;870976;24%;Café;820;21;18;409485;Ambiental
+85;Felipe Alves;42;Goiás;Ensino Superior;351;1355;454675;32%;Soja;725;28;27;517181;Processo Juridico
+86;Manuela Martins;22;Goiás;Ensino Médio;170;1468;492791;22%;Uva;629;14;22;27201;Questoes Fundiarias
+87;Fernando Ferreira;36;Goiás;Ensino Fundamental;349;988;1726261;21%;Trigo;509;7;22;390042;Rural
+88;Beatriz Ribeiro;64;Goiás;Ensino Superior;798;1951;1810435;30%;Algodão;660;18;4;974847;Custo de Producao
+89;Diego Oliveira;19;Acre;Ensino Médio;1416;1842;1024180;25%;Milho;651;4;23;357448;Rural
+90;Nathalia Costa;34;Maranhão;Ensino Fundamental;1049;2448;1081567;23%;Soja;866;9;46;68268;Custo de Producao
+91;Anderson Santos;25;Piauí;Ensino Superior;995;2869;1916409;28%;Algodão;960;21;32;523364;Logistica
+92;Priscila Almeida;58;Ceará;Ensino Médio;1003;2920;1888584;31%;Café;653;23;14;222213;Infraestrutura
+93;Matheus Lima;67;Rio Grande do Norte;Ensino Superior;565;2822;415166;23%;Uva;646;21;20;439419;Qualificacao da Mao de Obra
+94;Joaquim Oliveira;64;Paraíba;Ensino Médio;775;315;490759;29%;Soja;661;25;43;927212;Ambiental
+95;Bianca Souza;32;Pernambuco;Ensino Médio;659;505;1025561;26%;Milho;695;10;41;505715;Processo Juridico
+96;Luisa Lima;65;Alagoas;Ensino Superior;1303;2775;1989503;24%;Café;584;27;10;304633;Questoes Fundiarias
+97;Thiago Almeida;55;Sergipe;Ensino Médio;176;2050;531430;30%;Trigo;788;19;25;684468;Rural
+98;Helena Martins;67;Paraná;Ensino Médio;512;259;1555864;29%;Algodão;714;4;31;817490;Custo de Producao
+99;Ricardo Oliveira;36;Paraná;Ensino Médio;466;2025;855318;25%;Milho;646;14;36;24682;Logistica
+100;Lorena Ribeiro;33;Paraná;Ensino Superior;695;417;1871162;21%;Café;893;8;45;821120;Infraestrutura
+101;Vinicius Costa;52;Paraná;Ensino Superior;806;1877;1089238;34%;Soja;573;8;9;517366;Qualificacao da Mao de Obra
+102;Mariane Silva;56;Paraná;Ensino Superior;844;1028;356538;20%;Uva;591;29;22;610294;Ambiental
+103;Renato Fernandes;65;Paraná;Ensino Médio;1227;1616;1094534;27%;Trigo;893;27;16;874149;Processo Juridico
+104;Raquel Gomes;59;Paraná;Ensino Médio;281;2380;950511;22%;Algodão;816;4;3;899962;Questoes Fundiarias
+105;Alessandro Santos;24;Paraná;Ensino Médio;1277;580;272707;30%;Milho;863;13;23;925290;Qualificacao da Mao de Obra
+106;Aline Alves;33;Paraná;Ensino Superior;953;2139;1204303;31%;Soja;718;17;31;106518;Ambiental
+107;Bruna Martins;25;Paraná;Ensino Superior;237;789;1796858;26%;Algodão;589;19;14;639138;Processo Juridico
+108;Marcelo Ferreira;64;Paraná;Ensino Fundamental;429;1347;620792;29%;Café;746;21;36;850801;Questoes Fundiarias
+109;Flavia Ribeiro;35;Paraná;Ensino Superior;392;1646;1881806;23%;Uva;872;23;46;619307;Rural
+110;Cesar Oliveira;44;Paraná;Ensino Fundamental;854;126;1183542;34%;Soja;815;18;9;983442;Custo de Producao
+111;Mirella Lima;34;Paraná;Ensino Médio;1019;365;575793;24%;Milho;853;23;36;846555;Rural
+112;Eduardo Souza;24;Paraná;Ensino Médio;1414;2651;1187559;34%;Café;791;25;39;380936;Rural
+113;Monique Almeida;43;Paraná;Ensino Médio;1095;2000;248555;23%;Trigo;546;30;17;518508;Rural
+114;Rodrigo Santos;44;Paraná;Ensino Superior;131;2115;1915439;27%;Algodão;761;10;12;997473;Rural
+115;Sandra Pereira;28;Paraná;Ensino Médio;1455;1220;426938;31%;Milho;627;8;19;990004;Rural
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;
